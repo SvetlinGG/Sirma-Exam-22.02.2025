@@ -14,11 +14,9 @@ body {
 header {
     background-image: url('/src/pictures/places-to-visit-in-bulgaria.jpg');
     border-radius: 16px;
-    width: 1400px;
     height: 772px;
 }
 main {
-    width: 1400px;
     height: 766px;
 }
 .main-section-content {
@@ -33,7 +31,6 @@ main {
 }
 .header-section-content {
     display: flex;
-    width: 1400px;
     height: 60px;
     
 }
@@ -124,7 +121,6 @@ button {
 }
 .rating {
     display: flex;
-    width: 1400px;
     height: 63px;
     justify-content: space-around;
     margin-bottom: 40px;
@@ -201,24 +197,66 @@ button {
 }
 
 .platform {
-    width: 1400px;
     height: 681px;
     padding: 80px 51px 80px 50px;
     display: grid;
     grid-template-columns: 589px 576px;
     grid-template-rows: 480px;
-    column-gap: 100px;
-    border: 1px solid green;
+    gap: 120px;
 }
 .our-platform {
     grid-column-start: 1;
     grid-column-end: 2;
-    border: 1px solid red;
-    
 }
 .image-mountain {
     background-image: url('/src/pictures/mountain.svg');
-    border-radius: 16px;
-      
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    border-radius: 16px; 
 }
+.how {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.set {
+    font-size: 16px;
+    color: var(--color-grey);
+    margin-bottom: 48px;
+}
+.choose {
+    width: 397px;
+    height: 64px;
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-bottom: 20px;
+}
+.destination {
+    font-size: 24px;
+}
+.select {
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.personalize, .travel {
+    width: 397px;
+    height: 81px;
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.text-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-bottom: 20px;
+}
+
 
