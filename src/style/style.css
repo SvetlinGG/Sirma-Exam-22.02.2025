@@ -1,0 +1,47 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-grey: grey;
+    --color-orange: #DD9115;
+    --color-orange-light: #F2DBB1;
+
+}
+
+body {
+    margin: 0;
+}
+header {
+    background-image: url('/src/pictures/places-to-visit-in-bulgaria.jpg');
+    border-radius: 16px;
+    width: 1400px;
+    height: 772px;
+}
+.header-section {
+    padding: 20px;
+}
+.header-section-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 1280px;
+    color: ;
+}
+
+.logo-container {
+    
+}
+.header-items {
+    width: 177px;
+}
+.nav-container {
+    display: flex;
+    
+}
+.nav-panel ul {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    padding: 0;
+}
