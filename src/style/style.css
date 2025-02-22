@@ -153,7 +153,6 @@ button {
     width: 763px;
     height: 166px;
     margin: 80px 317px 40px 317px;
-    border: 1px solid red;
 }
 .exploring-txt {
     font-size: 40px;
@@ -167,28 +166,30 @@ button {
     height: 46px;
 }
 .cities {
-    margin: 40px 31px 80px 31px;
+    margin: 40px 31px 80px 40px;
     width: 1338px;
     height: 400px;
     display: grid;
     grid-template-columns: 430px 430px 430px;
     grid-template-rows: 400px;
     gap: 24px;
-    border: 1px solid red;
+    
 }
 .nesebar {
-    background-image: url('/src/pictures/nesebar.jpg');
+    background-image: url('/src/pictures/nesebar.svg');
+    border-radius: 16px;
     grid-column-start: 1;
     grid-column-end: 2;
     margin-right: 24px;
-    border: 1px solid red;
+    
 }
 .plovdiv {
-    background-image: url('/src/pictures/plovdiv-4.jpg');
+    background-image: url('/src/pictures/plovdiv.svg');
+    border-radius: 16px;
     grid-column-start: 2;
     grid-column-end: 3;
     margin-right: 24px;
-    border: 1px solid red;
+    
 }
 .sofia {
     background-image: url('/src/pictures/sofia.svg');
@@ -196,6 +197,28 @@ button {
     grid-column-start: 3;
     grid-column-end: 4;
     margin-right: 24px;
+   
+}
+
+.platform {
+    width: 1400px;
+    height: 681px;
+    padding: 80px 51px 80px 50px;
+    display: grid;
+    grid-template-columns: 589px 576px;
+    grid-template-rows: 480px;
+    column-gap: 100px;
+    border: 1px solid green;
+}
+.our-platform {
+    grid-column-start: 1;
+    grid-column-end: 2;
     border: 1px solid red;
+    
+}
+.image-mountain {
+    background-image: url('/src/pictures/mountain.svg');
+    border-radius: 16px;
+      
 }
 
