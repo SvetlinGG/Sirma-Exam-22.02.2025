@@ -85,6 +85,8 @@ a {
     margin: 40px 0 24px 0;
     color: var(--color-white);
     margin-left: 450px;
+    margin-bottom: 140px;
+
 }
 .text {
     width: 592px;
@@ -111,4 +113,26 @@ p {
 button {
     margin-left: 220px;
 }
+.rating {
+    display: flex;
+    width: 1400px;
+    height: 63px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
 
+.rating-txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-white);
+    text-align: center;
+}
+.txt {
+    font-size: 16px;
+    font-weight: 500; 
+}
+.numbers {
+    font-size: 26px;
+    font-weight: 300;
+}
