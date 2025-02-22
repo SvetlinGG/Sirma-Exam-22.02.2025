@@ -17,6 +17,15 @@ header {
     width: 1400px;
     height: 772px;
 }
+main {
+    width: 1400px;
+    height: 766px;
+}
+.main-section-content {
+    display: flex;
+    flex-direction: column;
+    
+}
 .header-section {
     padding: 20px;
     display: flex;
@@ -82,7 +91,7 @@ a {
 .text-section {
     width: 608px;
     height: 309;
-    margin: 40px 0 24px 0;
+    margin: 120px 0 24px 0;
     color: var(--color-white);
     margin-left: 450px;
     margin-bottom: 140px;
@@ -136,3 +145,57 @@ button {
     font-size: 26px;
     font-weight: 300;
 }
+
+.exploring {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 763px;
+    height: 166px;
+    margin: 80px 317px 40px 317px;
+    border: 1px solid red;
+}
+.exploring-txt {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.discover {
+    font-size: 18px;
+    margin: 0 150px;
+    width: 460px;
+    height: 46px;
+}
+.cities {
+    margin: 40px 31px 80px 31px;
+    width: 1338px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-template-rows: 400px;
+    gap: 24px;
+    border: 1px solid red;
+}
+.nesebar {
+    background-image: url('/src/pictures/nesebar.jpg');
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 24px;
+    border: 1px solid red;
+}
+.plovdiv {
+    background-image: url('/src/pictures/plovdiv-4.jpg');
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 24px;
+    border: 1px solid red;
+}
+.sofia {
+    background-image: url('/src/pictures/sofia.svg');
+    border-radius: 16px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 24px;
+    border: 1px solid red;
+}
+
