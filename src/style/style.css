@@ -148,7 +148,7 @@ button {
     width: 763px;
     height: 166px;
     margin: 80px 317px 40px 317px;
-    border: 1px solid red;
+    
 }
 .exploring-txt {
     font-size: 40px;
@@ -327,4 +327,27 @@ button {
     padding: 16px;
     height: 90px;
 }
+.chapter {
+    font-size: 18px;
+}
+.city-bg {
+    font-size: 12px;
+    color: var(--color-grey);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.price {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    font-size: 16px;
+    color: var(--color-grey);
+    margin-left: 10px;
+}
+
 
