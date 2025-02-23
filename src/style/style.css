@@ -319,6 +319,12 @@ button {
     width: 720px;
 }
 .area {
-    
+    margin: 272px 7px 7px 7px;
+    background-color: var(--color-white);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 90px;
 }
 
