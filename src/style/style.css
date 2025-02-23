@@ -485,14 +485,14 @@ span {
     border-radius: 16px;
     display: flex;
     flex-direction: column;
-    padding: 48px 31px;
+    padding: 24px 31px;
     background-color: var(--color-black);
 }
 
 .footer-section-content {
     margin-bottom: 32px;
     display: flex;
-    
+    gap: 100px;
 }
 .list {
     display: flex;
@@ -516,20 +516,20 @@ span {
     width: 706px;
     height: 136px;
     margin-bottom: 32px;
-    border: 1px solid red;
+    
 }
 .stay {
-    border: 1px solid red;
     color: var(--color-white);
     display: flex;
     flex-direction: column;
+    
 }
 .date {
     width: 440px;
     height: 26px;
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .buttons {
     width: 440px;
@@ -552,13 +552,35 @@ input {
 }
 .subscribe {
     width: 118px;
-    height: 40px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
     background-color: var(--color-white);
     color: var(--color-black);
     border-radius: 40px;
-    margin-left: 20px;
-    display: inline-block;
     text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 20px;
+    
+}
+.rights {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 100;
+}
+.privacy {
+    width: 1338px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    border-top: 2px solid var(--color-white);
+    padding-top: 50px;
+}
+.cookies {
+    margin-left: 30px;
+    
 }
 
 
