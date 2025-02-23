@@ -2,6 +2,7 @@
     --color-white: #ffffff;
     --color-black: #000000;
     --color-grey: grey;
+    --color-lightgrey: #E5E5E5;
     --color-orange: #DD9115;
     --color-orange-light: #F2DBB1;
     font-family: 'Inter';
@@ -10,6 +11,7 @@
 
 body {
     margin: 0;
+    
 }
 header {
     background-image: url('/src/pictures/places-to-visit-in-bulgaria.jpg');
@@ -387,26 +389,83 @@ span {
     grid-column-start: 1;
     grid-column-end: 2;
     padding: 32px;
-    border: 1px solid var(--color-grey);
+    border: 1px solid var(--color-lightgrey);
 }
 .founder-2 {
     border-radius: 16px;
     grid-column-start: 2;
     grid-column-end: 3;
     padding: 32px;
-    border: 1px solid var(--color-grey);
+    border: 1px solid var(--color-lightgrey);
 }
 .founder-3 {
     border-radius: 16px;
     grid-column-start: 3;
     grid-column-end: 4;
     padding: 32px;
-    border: 1px solid var(--color-grey);
+    border: 1px solid var(--color-lightgrey);
 }
 .message-1, .message-2, .message-3 {
     font-size: 28px;
+    font-weight: 300;
     height: 180px;
     margin-bottom: 29px;
+}
+.name {
+    font-size: 20px;
+}
+.employee {
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.explore {
+    height: 308px;
+    padding: 0 80px 80px 80px;
+    border: 1px solid red;
+}
+.explore-bulgaria {
+    width: 1216;
+    height: 226;
+    display: grid;
+    grid-template-columns: 548px 342px;
+    grid-template-rows: 98px;
+    gap: 200px;
+    padding: 64px;
+    background-color: var(--color-lightgrey);
+    border-radius: 16px;
+}
+.start {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.start-adventure {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid red;
+}
+.custom-button {
+    width: 128px;
+    height: 45px;
+    border-radius: 40px;
+    padding-top: 10px;
+    border: 2px solid var(--color-grey);
+    color: var(--color-grey);
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+.custom-button-2 {
+    width: 202px;
+    height: 45px;
+    border-radius: 40px;
+    padding-top: 22px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
 }
 
 
