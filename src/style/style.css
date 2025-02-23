@@ -459,7 +459,7 @@ span {
 }
 .your {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .custom-button-2 {
     width: 202px;
@@ -496,17 +496,69 @@ span {
 }
 .list {
     display: flex;
-    justify-content: start;
-    
 }
 
 .sirma-logo {
     margin-bottom: 32px;
 }
 .we {
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 200;
     margin-bottom: 32px;
+    color: var(--color-white);
+}
+.links {
+    font-size: 14px;
+    font-weight: 200;
+    margin-right: 35px;
+}
+.academy {
+    width: 706px;
+    height: 136px;
+    margin-bottom: 32px;
+    border: 1px solid red;
+}
+.stay {
+    border: 1px solid red;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    width: 440px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.buttons {
+    width: 440px;
+    height: 45px;
+    margin-right: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 306px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 1.5px solid var(--color-white);
+    
+}
+.email-input {
+    padding-left: 20px;
+}
+.subscribe {
+    width: 118px;
+    height: 40px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border-radius: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    text-align: center;
 }
 
 
