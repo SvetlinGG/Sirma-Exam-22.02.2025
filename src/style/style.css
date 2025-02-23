@@ -19,10 +19,9 @@ header {
 main {
     height: 766px;
 }
-.main-section-content {
+.main-section-content, .travel-content{
     display: flex;
     flex-direction: column;
-    
 }
 .header-section {
     padding: 20px;
@@ -149,10 +148,11 @@ button {
     width: 763px;
     height: 166px;
     margin: 80px 317px 40px 317px;
+    border: 1px solid red;
 }
 .exploring-txt {
     font-size: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
 .discover {
@@ -203,10 +203,12 @@ button {
     grid-template-columns: 589px 576px;
     grid-template-rows: 480px;
     gap: 120px;
+    margin-bottom: -200px;
 }
 .our-platform {
     grid-column-start: 1;
     grid-column-end: 2;
+    
 }
 .image-mountain {
     background-image: url('/src/pictures/mountain.svg');
@@ -252,11 +254,71 @@ button {
     gap: 8px;
     margin-bottom: 24px;
 }
+.traveler {
+    margin: 48px 0;
+}
 .text-container-2 {
     display: flex;
     flex-direction: column;
     justify-content: center; 
     padding-bottom: 20px;
 }
-
+.btn-3 {
+    width: 156px;
+    height: 45px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 40px;
+    border-style: none;
+    margin-left: 0px;
+}
+.traveling {
+    height: 791px;
+}
+.starosel {
+    background-image: url('/src/pictures/starosel.svg');
+    border-radius: 16px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 24px;
+    
+}
+.kings-valley {
+    background-image: url('/src/pictures/kings-valey.svg');
+    border-radius: 16px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 24px;
+    
+}
+.bansko {
+    background-image: url('/src/pictures/bansko.svg');
+    border-radius: 16px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 24px;
+   
+}
+.exploring-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 720px;
+    height: 106px;
+    margin: 80px 317px 40px 317px;
+    
+}
+.exploring-txt-2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.discover-2 {
+    color: var(--color-grey);
+    font-size: 14px;
+    font-weight: 300;
+    width: 720px;
+}
+.area {
+    
+}
 
