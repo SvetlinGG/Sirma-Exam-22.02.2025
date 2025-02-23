@@ -2,7 +2,7 @@
     --color-white: #ffffff;
     --color-black: #000000;
     --color-grey: grey;
-    --color-lightgrey: #E5E5E5;
+    --color-lightgrey: #F5F5F5;
     --color-orange: #DD9115;
     --color-orange-light: #F2DBB1;
     font-family: 'Inter';
@@ -421,7 +421,6 @@ span {
 .explore {
     height: 308px;
     padding: 0 80px 80px 80px;
-    border: 1px solid red;
 }
 .explore-bulgaria {
     width: 1216;
@@ -441,31 +440,75 @@ span {
 .start-adventure {
     grid-column-start: 2;
     grid-column-end: 3;
-    border: 1px solid red;
+    
 }
 .custom-button {
     width: 128px;
     height: 45px;
     border-radius: 40px;
-    padding-top: 10px;
-    border: 2px solid var(--color-grey);
+    border: 1px solid var(--color-grey);
     color: var(--color-grey);
     font-weight: 400;
-    text-align: center;
     display: inline-block;
     align-items: center;
+    
+}
+.more {
+    text-align: center;
+    padding-top: 10px;
+}
+.your {
+    text-align: center;
+    padding-top: 10px;
 }
 .custom-button-2 {
     width: 202px;
     height: 45px;
     border-radius: 40px;
-    padding-top: 22px;
     background-color: var(--color-black);
     color: var(--color-white);
     font-weight: 400;
-    text-align: center;
     display: inline-block;
     align-items: center;
+    
 }
+.ready {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.journey {
+    font-size: 18px;
+    color: var(--color-grey);
+}
+.footer-section {
+    height: 309px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 31px;
+    background-color: var(--color-black);
+}
+
+.footer-section-content {
+    margin-bottom: 32px;
+    display: flex;
+    
+}
+.list {
+    display: flex;
+    justify-content: start;
+    
+}
+
+.sirma-logo {
+    margin-bottom: 32px;
+}
+.we {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 32px;
+}
+
+
 
 
